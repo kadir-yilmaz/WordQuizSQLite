@@ -1,11 +1,3 @@
 Kelime listeleri oluşturup bu listelere kelime ekleyip silebileceğimiz ve bu listeler ile quiz yapabileceğimiz bir uygulama. SQLite kullanıldı.
 
-
-![Simulator Screen Shot - iPhone 14 Pro - 2023-02-11 at 01 57 13](https://user-images.githubusercontent.com/91225339/218218287-6d62a41f-a87c-4441-83ca-5ee97c8f198a.png)
-
-![My project](https://user-images.githubusercontent.com/91225339/218218716-41493055-30ef-4cbb-9f92-17cd935b6411.png)
-![Simulator Screen Shot - iPhone 1](https://user-images.githubusercontent.com/91225339/218219108-1607441c-0321-4cde-97bd-e37fdb2f91b2.png)
-![My project (2)](https://user-images.githubusercontent.com/91225339/218219332-f38fe12c-1683-455b-8a2b-a483a4861476.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-02-11 at 01 57 13](https://user-images.githubusercontent.com/91225339/218219784-3609e305-7c86-4e12-bb9a-9b0b6c8c1f5c.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-02-11 at 01 57 13](https://user-images.githubusercontent.com/91225339/218219968-4126848a-0beb-454a-9360-778c605545d2.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-02-11 at 01 57 13](https://user-images.githubusercontent.com/91225339/218220143-60c7143b-a4d3-445c-8c3d-10b8d5b1bc97.png)
+https://user-images.githubusercontent.com/91225339/218196559-3006320e-fdd6-4c8e-8d02-15e0064dc658.mp4
