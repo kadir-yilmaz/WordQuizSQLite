@@ -8,3 +8,4 @@ Kelime listeleri oluşturup bu listelere kelime ekleyip silebileceğimiz ve bu l
 ![My project (2)](https://user-images.githubusercontent.com/91225339/218219332-f38fe12c-1683-455b-8a2b-a483a4861476.png)
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-02-11 at 01 57 13](https://user-images.githubusercontent.com/91225339/218219784-3609e305-7c86-4e12-bb9a-9b0b6c8c1f5c.png)
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-02-11 at 01 57 13](https://user-images.githubusercontent.com/91225339/218219968-4126848a-0beb-454a-9360-778c605545d2.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-02-11 at 01 57 13](https://user-images.githubusercontent.com/91225339/218220143-60c7143b-a4d3-445c-8c3d-10b8d5b1bc97.png)
