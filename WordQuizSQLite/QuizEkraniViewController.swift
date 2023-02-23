@@ -38,6 +38,13 @@ class QuizEkraniViewController: UIViewController {
         soruYukle()
     }
     
+    @IBAction func examplesSwitch(_ sender: UISwitch) {
+        if sender.isOn {
+            cumleLabel.isHidden = false
+        }else {
+            cumleLabel.isHidden = true
+        }
+    }
 
     @IBAction func butonATikla(_ sender: Any) {
         dogruKontrol(button: butonA)

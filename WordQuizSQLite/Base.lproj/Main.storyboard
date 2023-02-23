@@ -105,7 +105,7 @@
                                                         <constraint firstAttribute="width" constant="353" id="N9m-9U-nX1"/>
                                                         <constraint firstAttribute="height" constant="97" id="ZHi-Rw-Rhx"/>
                                                     </constraints>
-                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <color key="textColor" systemColor="labelColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -254,12 +254,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKQ-Nt-JEh">
-                                <rect key="frame" x="16" y="327.66666666666669" width="361" height="183"/>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKQ-Nt-JEh">
+                                <rect key="frame" x="16" y="328" width="361" height="146"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="361" id="04n-Ug-Sye"/>
-                                    <constraint firstAttribute="height" constant="183" id="czQ-sr-tbz"/>
+                                    <constraint firstAttribute="width" constant="361" id="rur-gH-64F"/>
+                                    <constraint firstAttribute="height" constant="146" id="sF3-Jh-gx2"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -267,7 +267,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="d7K-sp-YfY">
-                                <rect key="frame" x="151" y="563" width="91" height="212.33333333333337"/>
+                                <rect key="frame" x="151" y="526.33333333333337" width="91" height="212.33333333333337"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3LH-Pf-0bn">
                                         <rect key="frame" x="0.0" y="0.0" width="91" height="34.333333333333336"/>
@@ -278,7 +278,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcM-5W-G4X">
-                                        <rect key="frame" x="0.0" y="59.333333333333371" width="91" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="59.333333333333258" width="91" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="Button B"/>
                                         <connections>
@@ -326,8 +326,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfl-JO-qFW">
-                                <rect key="frame" x="166" y="261.33333333333331" width="61.333333333333343" height="28.666666666666686"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfl-JO-qFW">
+                                <rect key="frame" x="166" y="248" width="61.333333333333343" height="28.666666666666686"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -336,17 +336,29 @@
                         <viewLayoutGuide key="safeArea" id="bck-HU-xC7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="bck-HU-xC7" firstAttribute="trailing" secondItem="xKQ-Nt-JEh" secondAttribute="trailing" constant="16" id="6te-QA-l0E"/>
                             <constraint firstItem="Cfl-JO-qFW" firstAttribute="centerX" secondItem="YQh-6H-z9m" secondAttribute="centerX" id="BaC-mz-pMR"/>
                             <constraint firstItem="d7K-sp-YfY" firstAttribute="top" secondItem="xKQ-Nt-JEh" secondAttribute="bottom" constant="52.329999999999998" id="E6a-aW-zIO"/>
+                            <constraint firstItem="xKQ-Nt-JEh" firstAttribute="leading" secondItem="bck-HU-xC7" secondAttribute="leading" constant="16" id="Qzs-rz-r3q"/>
                             <constraint firstItem="xKQ-Nt-JEh" firstAttribute="centerX" secondItem="YQh-6H-z9m" secondAttribute="centerX" id="TgS-Xo-jWE"/>
                             <constraint firstItem="d7K-sp-YfY" firstAttribute="centerX" secondItem="YQh-6H-z9m" secondAttribute="centerX" id="To0-Ie-asP"/>
                             <constraint firstItem="FWG-nq-hfH" firstAttribute="centerX" secondItem="YQh-6H-z9m" secondAttribute="centerX" id="cR7-7A-rZz"/>
-                            <constraint firstItem="xKQ-Nt-JEh" firstAttribute="top" secondItem="Cfl-JO-qFW" secondAttribute="bottom" constant="37.670000000000002" id="q25-3P-Tip"/>
+                            <constraint firstItem="xKQ-Nt-JEh" firstAttribute="top" secondItem="Cfl-JO-qFW" secondAttribute="bottom" constant="38" id="g48-35-Xhr"/>
                             <constraint firstItem="FWG-nq-hfH" firstAttribute="top" secondItem="bck-HU-xC7" secondAttribute="top" constant="27" id="tb2-h2-o7h"/>
                             <constraint firstItem="Cfl-JO-qFW" firstAttribute="top" secondItem="FWG-nq-hfH" secondAttribute="bottom" constant="51.329999999999998" id="ula-4G-Qod"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="96q-4i-Bef"/>
+                    <navigationItem key="navigationItem" id="96q-4i-Bef">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="RFd-25-kcj">
+                            <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="gno-jo-xlp">
+                                <rect key="frame" x="326" y="6.6666666666666679" width="51" height="31.000000000000004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="examplesSwitch:" destination="9fZ-HF-1dB" eventType="valueChanged" id="s0l-Hv-zE8"/>
+                                </connections>
+                            </switch>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="butonA" destination="3LH-Pf-0bn" id="VrJ-aa-Acq"/>
                         <outlet property="butonB" destination="TcM-5W-G4X" id="4N7-2w-3yD"/>
